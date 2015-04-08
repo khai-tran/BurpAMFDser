@@ -6,7 +6,7 @@ BurpAMFDSer also utilizes  part of Kenneth Hill's Jmeter source code for custom 
 
 ## Usage 
 ###1 Start Burp plugin
-  java -classpath burp.jar;burpamfdser.jar;xstream-1.4.2.jar burp.StartBurp 
+    java -classpath burp.jar;burpamfdser.jar;xstream-1.4.2.jar burp.StartBurp 
 
 ###2 Inspect serialized AMF traffic
 - Serialized AMF request/response will be automatically converted to XML. Decoded XML should be in "Edited Request" and "Original Response" tabs.
